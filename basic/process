@@ -1,0 +1,23 @@
+java code -->  compiler (javac) --> byte code --> jre & lib --> jvm
+
+
+
+    JDK (Java Development Kit):
+        The JDK is a software development kit that provides the tools and resources necessary for developing Java applications.
+        It includes the Java compiler (javac) to compile Java source code into bytecode.
+        It also includes various development tools, libraries, and documentation.
+
+    Compilation:
+        When you write Java source code (.java files) using a text editor, you can use the JDK's Java compiler (javac) to compile the source code.
+        The compiler converts the human-readable Java code into platform-independent bytecode (.class files), which contains instructions for the Java Virtual Machine (JVM).
+
+    JVM (Java Virtual Machine):
+        The JVM is a virtual machine that executes Java bytecode.
+        It is responsible for interpreting and executing the bytecode instructions of a Java program.
+        The JVM provides a runtime environment that abstracts the underlying hardware and operating system, allowing Java programs to be platform-independent.
+        The JVM also handles memory management, garbage collection, and other runtime operations.
+
+    JRE (Java Runtime Environment):
+        The JRE is an implementation of the JVM along with the required libraries and resources to run Java applications.
+        It includes the JVM, class libraries, and other files necessary for executing Java programs.
+        The JRE is designed for end-users who only need to run Java applications, not develop them.
